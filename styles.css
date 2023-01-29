@@ -1,0 +1,188 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+h1{
+  font-family:'Montserrat-Thin';
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+ .h3-class 
+ {
+ width:125%;
+ } 
+ h3{
+  font-family: fantasy ;
+ }
+
+ 
+h2{
+  font-size: 2rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+}
+.h2-class{
+  font-family: fantasy;
+}
+.container-fluid 
+{
+  padding: 3% 15% 6%;
+  /* 6% of extra bottom padding given  * 3 is top 15 is left rigth and 6 is bottom*/ 
+}
+
+/* navigation */
+.navbar{
+  padding:0 0 2.1rem;
+}
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-iteam{
+  padding: 0 18px;
+  /* it gives padding to contacts ... */
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Bold";
+}
+/* Download Button */
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+/* image width */
+.title-image
+{
+  width: 22%;
+  /* this function rotates the images to the specified angle; */
+  transform: rotate(22deg);
+  position: absolute;
+  right: 25%;
+  /* since the position is absolute so we can change its position form its nearst neighbouring ancestor rigth left whatever */
+
+}
+/* adding padding to the features section  */
+#features
+{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  /* z-index:1; */
+  /* position element come second dont need to sepicify z-index as above specified */
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover{
+  color:  #ff4c68;
+}
+/* testimonials css */
+#testimonials{
+  padding: 7% 15%;
+  background-color:  #ef8172;
+   text-align: center;
+   color: #fff;
+
+}
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding:7% 15% ;
+}
+div.carousel-inner {
+  height: 500px !important; 
+  /* this is important as carousel height may vary according to the content of the inner corusel so make it const irrespective of content */
+} 
+.testimonial-image{
+  border-radius: 100%;
+}
+.dog-image{
+  height: 200px;
+  width: 200px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-table{
+  padding: 3% 2%;
+}
+/* here we are making media query in order to responsive website 
+on and for image and text  */
+@media(max-width:1000px)
+{
+  #title{
+    text-align: center;
+
+  }
+  .title-image{
+    position: static;
+    /* any screen lesser than 1000px will have atatic images  */
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+#cta{
+  background-color:#ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  /* padding: 7% 15%; */
+  text-align: center;
+} 
+/* .cta{
+  text-align: center;
+  padding-bottom:50px; 
+}*/
+.h3-cta{
+ 
+  /* font-family: fantasy;
+  font-size: 2.5rem;
+  color: #fff;
+  width: 800px; 
+  padding-left:250px; */
+  /* line-height: 1.5rem; */
+  font-family: fantasy;
+  font-size:3.5rem ;
+  line-height:1.5 ;
+
+}
+/* .dnld-btn{
+  padding-top:10px ;
+  margin-top: 20px;
+  margin-left: 10px;
+} */
+.space{
+  margin: 5px;
+ 
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+  
+}
+
